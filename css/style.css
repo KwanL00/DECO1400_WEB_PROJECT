@@ -53,7 +53,6 @@ nav {
 
 .nav-links li a:hover{
   color: #fdcc01;
-  /*transition-delay: 0.1s;*/
 }
 
 .burger {
@@ -129,7 +128,7 @@ nav {
 }
 
 .centered p{
-  animation: LightUp 5s ease-in;
+  animation: LightUp 4s ease-in;
   font-size: 15px;
   line-height: 1.5;
 }
