@@ -25,6 +25,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .logo {
@@ -52,7 +53,7 @@ nav {
 
 .nav-links li a:hover{
   color: #fdcc01;
-  transition-delay: 0.2s;
+  /*transition-delay: 0.1s;*/
 }
 
 .burger {
