@@ -87,6 +87,30 @@ nav {
   text-align: center;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0,40px,0)
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1
+  }
+}
+
+@keyframes LightUp {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+
 /* Centered text */
 .centered {
   position: relative;
@@ -101,9 +125,11 @@ nav {
   font-size: 50px;
   font-style: oblique;
   letter-spacing: 3px;
+  animation: fadeInUp 1s ease-in;
 }
 
 .centered p{
+  animation: LightUp 5s ease-in;
   font-size: 15px;
   line-height: 1.5;
 }
