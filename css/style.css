@@ -75,6 +75,7 @@ nav {
   /*max-height: 900px;*/
   /*background-color: red;*/
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .picture_wrapper {
@@ -229,6 +230,7 @@ footer {
   text-align: center;
   padding:20px;
 }
+
 
 footer p{
   margin-top: 20px;
