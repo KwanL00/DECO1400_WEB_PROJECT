@@ -21,6 +21,9 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .logo {
@@ -78,20 +81,39 @@ nav {
   flex-direction: column;
   margin-top: 10px;
   height: 900px;
+  text-align: center;
 }
 
 /* Centered text */
 .centered {
-  position: absolute;
-  top: 25%;
-  left: 50%;
+  position: relative;
+  top: 40%;
+  left: 0;
   color: #d4d4d4;
   font-size: 25px;
-  transform: translate(-80%, -50%);
+  /*transform: translate(-80%, -50%);*/
+}
+
+.centered h4 {
+  font-size: 50px;
+  font-style: oblique;
+  letter-spacing: 3px;
+}
+
+.centered p{
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#myVideo {
+  opacity: 1;
 }
 
 .guarantee {
   background-color: black;
+  /*background-image: url(../img/galaxy.gif);*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 1000px;*/
   margin-top: 10px;
   height: 700px;
   width: 100%;
@@ -102,6 +124,7 @@ nav {
   position: relative;
   padding: 100px;
   text-align: center;
+  line-height: 1.6;
 }
 
 .pledge h3 {
@@ -109,6 +132,17 @@ nav {
   font-style: oblique;
   letter-spacing: 3px;
 }
+
+.pledge table {
+  margin-top: 20px;
+  border-spacing: 15px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+
 
 .roomInfo{
   display: flex;
