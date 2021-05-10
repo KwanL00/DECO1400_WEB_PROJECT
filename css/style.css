@@ -8,7 +8,7 @@ body {
   position: relative;
   background-color: black;
   height: 100%;
-  background-image: url('../img/spaceship.jpg');
+  /*background-image: url('../img/spaceship.jpg');*/
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -73,14 +73,41 @@ nav {
   flex-direction: column;
 }
 
+.picture_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  height: 900px;
+}
+
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   color: #d4d4d4;
   font-size: 25px;
   transform: translate(-80%, -50%);
+}
+
+.guarantee {
+  background-color: black;
+  margin-top: 10px;
+  height: 700px;
+  width: 100%;
+}
+
+.pledge {
+  color: rgba(255, 215, 0, 0.82);
+  position: relative;
+  padding: 100px;
+  text-align: center;
+}
+
+.pledge h3 {
+  font-size: 100px;
+  font-style: oblique;
+  letter-spacing: 3px;
 }
 
 .roomInfo{
@@ -155,6 +182,31 @@ nav {
   background-position: -100% 100%;
 }
 
+footer {
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+
+footer p{
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+footer p *{
+
+  letter-spacing: 2px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #cccccc;
+}
 
 @media only screen and (max-width: 768px) {
 
