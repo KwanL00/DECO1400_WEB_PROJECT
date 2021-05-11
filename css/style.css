@@ -78,6 +78,16 @@ nav {
   margin-top: 100px;
 }
 
+.container #contact_wapper{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  flex-direction: column;
+  margin-top: 100px;
+  background-color: rgb(240, 240, 242);
+}
+
 .picture_wrapper {
   display: flex;
   flex-direction: column;
@@ -243,6 +253,19 @@ nav {
   background-color:rgba(28, 190, 131, 1);
   background-position: -100% 100%;
 }
+
+.contactUs {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+
+}
+.contactUs *{
+  color: white;
+  font-weight: 900;
+}
+
 
 footer {
   position: relative;
