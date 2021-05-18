@@ -120,7 +120,7 @@ nav {
 
   to {
     transform: translate3d(0,0,0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -130,7 +130,17 @@ nav {
   }
 
   to {
-    opacity: 1
+    opacity: 1;
+  }
+}
+
+@keyframes LightOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
 
@@ -252,6 +262,26 @@ nav {
   to {opacity: 1}
 }
 
+/* Fading animation */
+.fadeOut {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeOut {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+
+
 
 
 .roomInfo{
@@ -298,7 +328,7 @@ nav {
   text-transform: uppercase;
 }
 
-.roomDescription button{
+.coolButton {
   width: auto;
   height: auto;
   margin-left: auto;
@@ -319,11 +349,39 @@ nav {
   transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
 }
 
-.roomDescription button:hover{
+
+.coolButton:hover{
   color:rgba(255, 255, 255, 1);
   background-color:rgba(28, 190, 131, 1);
   background-position: -100% 100%;
 }
+
+/*.roomDescription button{*/
+/*  width: auto;*/
+/*  height: auto;*/
+/*  margin-left: auto;*/
+/*  margin-right:auto;*/
+
+/*  display:inline-block;*/
+
+/*  text-decoration:none;*/
+
+/*  color:rgba(28, 190, 131, 1);*/
+/*  background-color:transparent;*/
+/*  border:1px solid rgba(28, 190, 131, 1);*/
+/*  border-radius:100px;*/
+/*  padding: .3em 1.2em;*/
+
+/*  background-size: 200% 100%;*/
+/*  background-image: linear-gradient(to right, transparent 50%, rgba(28, 190, 131, 1) 50%);*/
+/*  transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;*/
+/*}*/
+
+/*.roomDescription button:hover{*/
+/*  color:rgba(255, 255, 255, 1);*/
+/*  background-color:rgba(28, 190, 131, 1);*/
+/*  background-position: -100% 100%;*/
+/*}*/
 
 .contactUs {
   margin-top: 50px;
@@ -333,9 +391,33 @@ nav {
 
 }
 .contactUs *{
-  color: white;
+  color: black;
   font-weight: 900;
 }
+
+.iqTestContainer {
+  display: none;
+  min-height: 100px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  align-items: center;
+  vertical-align: center;
+  flex-direction: column;
+}
+
+.iqTestContainer p{
+  display: none;
+}
+
+
+#demoButton {
+  /*min-height: 100px;*/
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+
+
 
 
 footer {
