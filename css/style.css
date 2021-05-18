@@ -196,6 +196,16 @@ nav {
   text-align: center;
 }
 
+.commitmentDesHide{
+  visibility: hidden;
+}
+
+.commitmentDes {
+  visibility: visible;
+
+  color: #e7e7e7;
+}
+
 /* Tiny Slider*/
 
 

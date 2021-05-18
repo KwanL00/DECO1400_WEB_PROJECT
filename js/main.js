@@ -1,6 +1,8 @@
 let startIndex = 0;
 showSlides(startIndex);
 
+
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -17,4 +19,10 @@ function showSlides(n) {
   dots[n].className += " active";
 }
 
+
+
+function showUp(id) {
+  document.getElementById(id).className = "commitmentDes";
+  document.getElementById(id).className += " fade";
+}
 
