@@ -2,7 +2,7 @@ let startIndex = 0;
 showSlides(startIndex);
 
 
-
+// This function will display the slide number that are given
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -19,10 +19,17 @@ function showSlides(n) {
   dots[n].className += " active";
 }
 
-
-
+// Function will change the given ID class to commitentDes
+// To archived the result of showing up
 function showUp(id) {
   document.getElementById(id).className = "commitmentDes";
   document.getElementById(id).className += " fade";
 }
+
+// Change the element color to gold
+// Use for automatic changing the nav bar color
+function navLightUp(_this) {
+  _this.style.color = "#fdcc01";
+}
+
 
