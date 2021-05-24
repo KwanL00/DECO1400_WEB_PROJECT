@@ -21,7 +21,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
   width: 100%;
@@ -79,7 +79,9 @@ nav {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: grayscale(30%) blur(2px);
+  background-position:top;
+  /*filter: grayscale(30%) blur(2px);*/
+  /*background-position: center top;*/
 }
 
 .container {
@@ -103,6 +105,10 @@ nav {
   background-color: rgb(240, 240, 242);
 }
 
+
+.container #crypto_wapper span{
+  color: #363636
+}
 
 .picture_wrapper {
   display: flex;
@@ -398,6 +404,112 @@ nav {
   font-weight: 900;
 }
 
+.contactUs h3 {
+  color: rgba(0, 0, 0, 0.61);
+  letter-spacing: 1px
+}
+
+.cryptoWrapper {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  max-width: 80%;
+  width: 80%;
+}
+
+.cryptoWrapper *{
+  color: black;
+  font-weight: 900;
+  letter-spacing: 1px
+}
+
+.cryptoWrapper h3 {
+  color: #fdcc01;
+  letter-spacing: 1px;
+  font-size: 14px;
+  max-width: 80%;
+}
+
+#cryptoBelieveString {
+  font-size: 14px;
+  font-weight: 900;
+  color: #fdcc01;
+  letter-spacing: 2px;
+}
+
+#cryptoBelieveString *{
+  margin-top: 100px;
+}
+
+#cryptoBelieveString h3 {
+  color: #fdcc01;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#cryptoBelieveString span {
+  font-size:14px;
+  color: #acacac;
+}
+
+#cryptoBelieveString h2{
+  color: #fdcc01;
+  font-weight: 900;
+  font-size: 25px;
+}
+#cryptoBelieveString p{
+  color: #acc2aa;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#cryptoBelieve img {
+  position: relative;
+  width: 400px;
+  max-height: 30%;
+}
+
+.cryptoDetails {
+  margin: 50px;
+  align-items: center;
+  text-align: center;
+  /*animation: fadeInUp 3s ease-out;*/
+}
+
+.cryptoDetails h2{
+  color: #f8f8f8;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-size: 25px;
+  /*animation: LightUp 3s;*/
+}
+
+.cryptoDetails h1{
+  color: #fdcc01;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-size: 40px;
+  font-style: oblique;
+  /*animation: LightUp 3s;*/
+}
+
+.cryptoDetails a{
+  color: #b1b1b1;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.cryptoDetails p{
+  margin-bottom: 10px;
+}
+
+.cryptoDetails img {
+  width: 80%;
+  /*height: 200px;*/
+}
+
 .iqTestContainer {
   display: none;
   min-height: 100px;
@@ -418,6 +530,7 @@ nav {
   margin-top: 50px;
   margin-bottom: 25px;
 }
+
 
 
 
