@@ -204,7 +204,10 @@ nav {
   margin-right: auto;
   color: #ffffff;
   text-align: center;
+  width: 40%;
 }
+
+
 
 .commitmentDesHide{
   visibility: hidden;

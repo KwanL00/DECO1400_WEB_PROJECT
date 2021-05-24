@@ -5,84 +5,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Marsort: Accommodation</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 <nav>
-  <!-- Logo goes here    -->
-  <div class="logo">
-    <h4>The Marsort</h4>
-  </div>
+    <!-- Logo goes here    -->
+    <div class="logo">
+      <h4>The Marsort</h4>
+    </div>
 
-  <!-- NAV BAR  -->
-  <ul class="nav-links">
-    <li>
-      <a href="index.html">Home</a>
-    </li>
-    <li>
-      <a href="accommodation.html" style="color: #fdcc01;">Accommodation</a>
-    </li>
-    <li>
-      <a href="dinning.html">Dinning</a>
-    </li>
-    <li>
-      <a href="IQtest.html">IQ Quiz</a>
-    </li>
-    <li>
-      <a href="contact_us.html">Contact Us</a>
-    </li>
-  </ul>
-  <div class="burger">
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
+    <!-- NAV BAR  -->
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="accommodation.html" style="color: #fdcc01;">Accommodation</a>
+      </li>
+      <li>
+        <a href="dinning.html">Dinning</a>
+      </li>
+      <li>
+        <a href="IQtest.html">IQ Quiz</a>
+      </li>
+      <li>
+        <a href="contact_us.html">Contact Us</a>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <div class="container" style="background-image: url(img/spaceship.jpg); background-position:center;">
+  <!--  Room Info -->
+    <div class="roomInfo">
+      <div class="roomImage" data-aos="fade-left">
+        <img src="./img/room_type_1.jpg" alt="">
+      </div>
+      <div class="roomDescription">
+        <h3>LUXURY ROOM</h3>
+        <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
+          Featuring a separate lounge room,
+          powder room, bedroom and marble…
+        </h4>
+        <button class="coolButton" type="button">Book Now</button>
+      </div>
+    </div>
+    <div class="roomInfo" data-aos="fade-in">
+      <div class="roomImage">
+        <img src="./img/King_bed.jpeg" alt="">
+      </div>
+      <div class="roomDescription" data-aos="fade-in">
+        <h3>JUNIOR SUITE</h3>
+        <h4>Indulge in refined design and a personal touch when you check
+          into our
+          generously sized Junior Suites.
+          Luxuriate in a Indulgent Bath Ritual in your oversize</h4>
+        <button class="coolButton" type="button">Book Now</button>
+      </div>
+    </div>
+    <div class="roomInfo" data-aos="fade-in">
+      <div class="roomImage">
+        <img src="./img/hotel_room4.jpeg" alt="">
+      </div>
+      <div class="roomDescription">
+        <h3>PRESTIGE SUITE</h3>
+        <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
+          Featuring a separate lounge room,
+          powder room, bedroom and marble…</h4>
+        <button class="coolButton" type="button">Book Now</button>
+      </div>
+    </div>
+    <div class="roomInfo"></div>
+    <div class="roomInfo"></div>
   </div>
-</nav>
-<div class="container" style="background-image: url(img/spaceship.jpg); background-position:center;">
-<!--  Room Info -->
-  <div class="roomInfo">
-    <div class="roomImage">
-      <img src="./img/room_type_1.jpg" alt="">
-    </div>
-    <div class="roomDescription">
-      <h3>LUXURY ROOM</h3>
-      <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
-        Featuring a separate lounge room,
-        powder room, bedroom and marble…
-      </h4>
-      <button class="coolButton" type="button">Book Now</button>
-    </div>
-  </div>
-  <div class="roomInfo">
-    <div class="roomImage">
-      <img src="./img/King_bed.jpeg" alt="">
-    </div>
-    <div class="roomDescription">
-      <h3>JUNIOR SUITE</h3>
-      <h4>Indulge in refined design and a personal touch when you check
-        into our
-        generously sized Junior Suites.
-        Luxuriate in a Indulgent Bath Ritual in your oversize</h4>
-      <button class="coolButton" type="button">Book Now</button>
-    </div>
-  </div>
-  <div class="roomInfo">
-    <div class="roomImage">
-      <img src="./img/hotel_room4.jpeg" alt="">
-    </div>
-    <div class="roomDescription">
-      <h3>PRESTIGE SUITE</h3>
-      <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
-        Featuring a separate lounge room,
-        powder room, bedroom and marble…</h4>
-      <button class="coolButton" type="button">Book Now</button>
-    </div>
-  </div>
-  <div class="roomInfo"></div>
-  <div class="roomInfo"></div>
-</div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 <footer>
   <hr style="color:white; width:90%; margin-left:5%" >
   <p>
