@@ -51,7 +51,7 @@ function getDemoQuiz() {
   testSubmitted = false;
   document.getElementById("demoButton").style.display= "none";
   document.getElementById("iqTestContainer").style.display= "flex";
-  num1 = getRandomInt(10);
+  num1 = getRandomInt(100);
   num2 = getRandomInt(10);
   document.getElementById("q1q").innerHTML = num1 + ' * ' + num2;
   setTimeout(() => checkAnswer(), 7 * 1000);

@@ -342,6 +342,8 @@ nav {
   height: auto;
   margin-left: auto;
   margin-right:auto;
+  cursor: pointer;
+
 
   display:inline-block;
 
@@ -530,11 +532,93 @@ nav {
   margin-top: 50px;
   margin-bottom: 25px;
 }
+/* Booking Form */
+
+#bookingBody {
+  /*margin-top: 20px;*/
+  width: 40%;
+  margin: 100px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#bookingBody h2 {
+  color: #fff;
+}
+
+.labelBlock {
+  margin: 20px 0;
+}
+
+.labelBlock.inlined {
+  width: 50%;
+  display: inline-block;
+  /*float: left;*/
+  /*margin-left: 1%;*/
+}
+
+#bookingForm label {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 1em;
+  color: #fff;
+}
+
+#bookingForm input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  width: 100%;
+  padding: 10px;
+  /*height: 20px;*/
+}
+
+.labelBlock.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+#bookingForm textarea {
+  height: 250px;
+}
 
 
+#bookingButton {
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+#bookingButton:hover {
+  border: 2px solid black;
+}
 
+#bookingConfirmationWrapper {
+  margin: 10% 20% 20% 20%;
+}
+#bookingConfirmation {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 
+#bookingConfirmation h3 {
+  color: white;
+  letter-spacing: 5px;
+}
+
+#bookingConfirmation p {
+  margin-top: 10px;
+  color: white;
+  letter-spacing: 1px;
+}
 
 footer {
   position: relative;

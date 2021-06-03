@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Marsort: Accommodation</title>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./css/aos.css" />
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -43,7 +43,7 @@
   <div class="container" style="background-image: url(img/spaceship.jpg); background-position:center;">
   <!--  Room Info -->
     <div class="roomInfo">
-      <div class="roomImage" data-aos="fade-left">
+      <div class="roomImage">
         <img src="./img/room_type_1.jpg" alt="">
       </div>
       <div class="roomDescription">
@@ -52,23 +52,23 @@
           Featuring a separate lounge room,
           powder room, bedroom and marble…
         </h4>
-        <button class="coolButton" type="button">Book Now</button>
+        <button class="coolButton" type="button" onclick="location.href='booking.html'">Book Now</button>
       </div>
     </div>
-    <div class="roomInfo" data-aos="fade-in">
+    <div class="roomInfo" data-aos="fade-left">
       <div class="roomImage">
         <img src="./img/King_bed.jpeg" alt="">
       </div>
-      <div class="roomDescription" data-aos="fade-in">
+      <div class="roomDescription">
         <h3>JUNIOR SUITE</h3>
         <h4>Indulge in refined design and a personal touch when you check
           into our
           generously sized Junior Suites.
           Luxuriate in a Indulgent Bath Ritual in your oversize</h4>
-        <button class="coolButton" type="button">Book Now</button>
+        <button class="coolButton" type="button" onclick="location.href='booking.html'">Book Now</button>
       </div>
     </div>
-    <div class="roomInfo" data-aos="fade-in">
+    <div class="roomInfo" data-aos="fade-right">
       <div class="roomImage">
         <img src="./img/hotel_room4.jpeg" alt="">
       </div>
@@ -77,13 +77,24 @@
         <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
           Featuring a separate lounge room,
           powder room, bedroom and marble…</h4>
-        <button class="coolButton" type="button">Book Now</button>
+        <button class="coolButton" type="button" onclick="location.href='booking.html'">Book Now</button>
+      </div>
+    </div>
+    <div class="roomInfo" data-aos="fade-left">
+      <div class="roomImage">
+        <img src="./img/maid.jpeg" alt="">
+      </div>
+      <div class="roomDescription">
+        <h3>KING SUITE</h3>
+        <h4>Indulge in refined design and a personal touch when you check into our Classic Junior Suites.
+          Featuring a separate lounge room,
+          powder room, bedroom and marble…</h4>
+        <button class="coolButton" type="button" onclick="location.href='booking.html'">Book Now</button>
       </div>
     </div>
     <div class="roomInfo"></div>
-    <div class="roomInfo"></div>
   </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./js/aos/aos.js"></script>
   <script>
     AOS.init();
   </script>
@@ -96,7 +107,6 @@
     <a href="https://twitter.com">Twitter</a>
     <a href="https://www.youtube.com/">Youtube</a>
     <a href="https://www.instagram.com/">Instagram</a>
-    <a href="https://www.notion.so/DECO1400-Web-Project-5db22b8ba8364da68c97011466f7bed8" target="_blank">Progress</a>
     <a href="https://www.notion.so/Website-Implementation-Assessment-Brief-30a201be9a514f89a7b0d222a2f33eae" target="_blank">Assessment Brief</a>
   </p>
 </footer>
