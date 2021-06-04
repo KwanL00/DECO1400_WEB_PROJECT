@@ -169,10 +169,16 @@ nav {
   animation: fadeInUp 1s ease-in;
 }
 
-.centered p{
+.centered p {
   animation: LightUp 4s ease-in;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.centered button {
+  animation: LightUp 4s ease-in;
+  position: relative;
+  z-index: 1;
 }
 
 #myVideo {
@@ -653,23 +659,9 @@ footer p *{
     overflow-x: hidden;
   }
 
-  .nav-links {
-    position: absolute;
-    right: 0;
-    height: 92vh;
-    top: 8vh;
-    /*background-color: black;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translate(100%);
-    transition: 0.5s ease-in;
-  }
-
   .burger {
     display: block;
-   }
+  }
 
   .nav-links li {
     opacity: 0;
